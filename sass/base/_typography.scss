@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $neutral-blue;
+  }
+  
+  p {
+    color: $neutral-grayish;
+    font-size: 18px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 400;
+  }

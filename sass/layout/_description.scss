@@ -1,0 +1,76 @@
+.description {
+    background-color: $neutral-gray;
+    height: 100vh;
+    display: flex;
+    @include small-screen {
+      height: auto;
+      flex-direction: column;
+      height: auto;
+    }
+    .info {
+      height: 100vh;
+      width: 40%;
+      margin-top: 7em;
+      margin-left: 5em;
+      @include big-screen {
+        margin-left: 3em;
+      }
+      @include medium-screen {
+        margin-left: 1em;
+        width: 45%;
+      }
+      @include small-screen {
+        width: 100%;
+        order: 2;
+        margin-left: 0;
+      }
+    }
+    .col-phone {
+      width: 54%;
+      height: auto;
+      position: relative;
+      right: 2em;
+      @include medium-screen {
+        width: 60%;
+      }
+      @include small-screen {
+        position: inherit;
+        width: 100%;
+        order: 1;
+      }
+      .phone {
+        position: relative;
+        z-index: 2;
+        width: auto;
+        height: auto;
+        top: -4em;
+        right: -7em;
+        @include big-screen {
+          right: -2em;
+        }
+        @include small-screen {
+          position: relative;
+          top: -2em;
+          right: 0em;
+          left: 0;
+          z-index: 2;
+          width: 100%;
+        }
+      }
+      .bg-big {
+        position: absolute;
+        z-index: 1;
+        top: -12em;
+        left: -2em;
+        @include small-screen {
+          position: initial;
+        }
+      }
+      .bg-small {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+      }
+    }
+  }

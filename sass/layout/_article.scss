@@ -1,0 +1,53 @@
+
+#article {
+    background-color: $neutral-gray;
+    padding: 70px 0;
+    h2 {
+      padding-bottom: 20px;
+      font-size: 2.3em;
+      @include small-screen {
+        text-align: center;
+        margin: auto;
+      }
+    }
+    .card {
+      @include medium-screen {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+      .card-subtitle {
+        color: $neutral-grayish;
+        font-weight: 400;
+        font-size: 0.8em;
+      }
+      .card-title {
+        font-size: 1.5em;
+        font-weight: 400;
+        color: $primary-dark;
+        @include big-screen {
+          font-size: 1.2em;
+        }
+        &:hover {
+          color: $primary-bright;
+        }
+      }
+      .card-text {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        @include big-screen {
+          font-size: 15px;
+        }
+      }
+      .card-img-top {
+        width: 100%;
+        height: 200px;
+        @include small-screen {
+          height: 300px;
+        }
+      }
+    }
+  }
+  

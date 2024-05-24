@@ -1,0 +1,11 @@
+button.btn {
+    background: linear-gradient(to right, $primary-green, $primary-bright);
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: $neutral-white;
+    font-size: 15px;
+    &:hover {
+      opacity: 0.7;
+      color: $neutral-white;
+    }
+  }

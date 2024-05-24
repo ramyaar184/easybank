@@ -1,0 +1,32 @@
+
+#chooseUs {
+    background-color: var(--neutral-blue);
+    padding-top: 2em;
+    padding-bottom: 80px;
+    h3 {
+      color: var(--primary-dark);
+      font-size: 1.8em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      color: var(--neutral-grayish);
+      margin: 0;
+      font-size: 16px;
+    }
+    .whyContent {
+      margin: 60px 0;
+    }
+    h4 {
+      margin: 0.6em 0;
+    }
+    .colom {
+      margin-bottom: 30px;
+    }
+    @include small-screen {
+      #chooseUs {
+        text-align: center;
+        margin: auto;
+      }
+    }
+  }
+  

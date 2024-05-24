@@ -1,0 +1,17 @@
+#navbar-header {
+    background-color: $neutral-white;
+    z-index: 10;
+    text-align: center;
+    ul.navbar-nav.me-auto.mb-2.mb-md-0 {
+      margin: auto;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: $neutral-grayish;
+      font-size: 16px;
+    }
+  
+    .nav-link:hover {
+      color: $primary-dark;
+      border-bottom: $primary-green solid 4px;
+    }
+  }
